@@ -1,0 +1,11 @@
+
+CREATE TABLE MediaEntity (
+    url TEXT NOT NULL,
+    title TEXT
+);
+
+insertMediaEntity:
+INSERT INTO MediaEntity(url,title) VALUES (:url,:title);
+
+selectAllEntries:
+SELECT * FROM MediaEntity;
