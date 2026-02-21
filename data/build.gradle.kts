@@ -8,7 +8,7 @@ plugins {
 sqldelight {
     databases {
         create("AppDatabase") {
-            packageName.set("com.test.app.db")
+            packageName.set("com.test.data")
         }
     }
 }

@@ -7,4 +7,5 @@ import kotlinx.serialization.Serializable
 sealed interface MediaRoute : NavKey {
     @Serializable
     data object ListScreen : MediaRoute
+    data object RecordScreen: MediaRoute
 }

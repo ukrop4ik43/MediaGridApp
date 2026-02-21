@@ -4,8 +4,8 @@ import androidx.navigation3.runtime.NavKey
 import kotlinx.serialization.Serializable
 
 @Serializable
-sealed interface ScreenEntry : NavKey {
+sealed interface NavModule : NavKey {
     @Serializable
-    data object HomeScreen : ScreenEntry
+    data object MediaModule : NavModule
 }
 

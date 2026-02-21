@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="video_saved_successfully">Video saved successfully!</string>
+    <string name="video_capture_failed">Video capture failed!</string>
+</resources>
